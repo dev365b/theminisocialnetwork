@@ -2,38 +2,21 @@
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Oasis</title>
-<link rel="stylesheet" href="file:///Users/nethan/Desktop/WebDev/TheOasis/style.css">
 </head>
+<body style="background-color: black;" id="body">
 
-<body class="body" id="body">
+<h1 style="font-family: futura; color: white; text-align: center;">The Oasis Bot</h1>
 
-<div id="loginBlock">
-<div style="margin-left: 25px;">
-<div class="box">
-<img src="file:///Users/nethan/Desktop/The%20Oasis%20Pictures/theoasispic.png" class="icon">
-<br>
+<img id ="botFace" src="file:///Users/nethan/Desktop/The%20Oasis%20Pictures/Hnet.com-image.gif" style="width: 500px; height: 500px; margin-left: 500px; margin-top: 100px;">
 
-<input  class="User" type="text" placeholder="Username" id="user">
-<input  class="password" type="password" placeholder="Password" class="password" id="pass">
-<button class="logButton" onclick="login()">Login to your Oasis</button>
+<h3 id="diag" style="font-family: Lucida Grande; text-align: center; margin-top: 50px; color: white;">Waiting for you to say something...</h3>
 
-
-</div>
-
-
-
-<h5 class="endLabel">Your futuristic social network. Email nerellanethan@gmail.com for an account</h5>
-</div>
-</div>
-<script src="file:///Users/nethan/Desktop/WebDev/TheOasis/script.js">
-
-
-
-
-
-
+<textarea id="botInput" placeholder="Type your message to the bot here." style="margin-left: 500px; margin-top: 50px; font-size: 15; font-family: futura; width: 500px; height: 50px;"></textarea>
+<button onclick="botTalk()" id="send" style="margin-left:730px; font-size: 15; font-family: futura; margin-top: 50px;">Send</button>
+<h5 style="font-family: futura; color: white; text-align: center; margin-tOp: 50px;">Bot coded and designed by Nethan Nerella. Copyright © The Oasis 2022.</h5>
+<script src="file:///Users/nethan/Desktop/WebDev/TheOasis/BotFiles/script.js">
 </script>
+
+
 </body>
 </html>
