@@ -1,0 +1,92 @@
+.icon{
+  width: 250px;
+  height: 250px;
+  margin-left: 590px;
+  margin-top: 100px;
+  border-radius: 3px;
+}
+
+.box{
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.User{
+
+height: 30px;
+width: 200px;
+border-radius: 7px;
+margin-top: 350px;
+margin-left: -230px;
+font-family: futura;
+
+
+}
+
+.password{
+  height: 30px;
+  width: 200px;
+  border-radius: 7px;
+  margin-top: 400px;
+  margin-left: -208px;
+  font-family: futura;
+
+}
+
+.logButton{
+  height: 30px;
+  width: 150px;
+  border-radius: 7px;
+  margin-top: 500px;
+  margin-left: -175px;
+  font-family: futura;
+
+}
+
+.body{
+
+background-color: black;
+
+}
+
+.endLabel{
+
+margin-left: 500px;
+color: white;
+font-family: futura;
+margin-top: 200px;
+
+}
+
+.friendsImage:hover{
+border: solid 5px white;
+}
+
+.logButton:hover{
+  background-color: #8256db;
+  color: white;
+  border: solid 3px #567fd1;
+  border-radius: 3px;
+  font-family: Verdana;
+}
+
+.User:hover{
+  border: solid 3px #567fd1;
+}
+
+.password:hover{
+  border: solid 3px #567fd1;
+}
+
+
+.otherProfileBu:hover{
+  border: solid 3px #567fd1;
+}
+
+.feedButtont:hover{
+
+  border: solid 3px #567fd1;
+
+}
